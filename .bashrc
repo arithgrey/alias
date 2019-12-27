@@ -150,6 +150,7 @@ alias repo_alias='cd /home/soporte/Documentos/alias'
 alias up_alias='cd && cp .bashrc /home/soporte/Documentos/alias && cd /home/soporte/Documentos/alias && git add . && git commit -m "[ADD]" && git push origin master'
 alias link_calendar='firefox --new-tab https://calendar.google.com/calendar/r?tab=wc&pli=1'
 alias link_enid='firefox --new-tab http://enidservices.com/inicio/login/'
+alias link_enid='firefox --new-tab http://enidservices.com/inicio/login/'
 
 
 
