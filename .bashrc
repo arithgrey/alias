@@ -134,7 +134,8 @@ alias br='git branch '
 alias log='git log '
 alias st='git status '
 alias oneline='git log --oneline'
-alias mixec='git reset --mixed '
+alias mixed='git reset --mixed '
+alias nbranch_master='git checkout master && git pull origin master && git checkout -b '
 
 
 #docker 
@@ -148,6 +149,8 @@ alias odoo='cd /home/soporte/Documentos/odoo-docker-server'
 alias repo_alias='cd /home/soporte/Documentos/alias'
 alias up_alias='cd && cp .bashrc /home/soporte/Documentos/alias && cd /home/soporte/Documentos/alias && 
 st'
+alias link_calendar='firefox --new-tab https://calendar.google.com/calendar/r?tab=wc&pli=1'
+alias link_enid='firefox --new-tab http://enidservices.com/inicio/login/'
 
 
 
