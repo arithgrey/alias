@@ -138,7 +138,8 @@ alias mixed='git reset --mixed '
 alias nbranch_master='git checkout master && git pull origin master && git checkout -b '
 alias pull_alias='repo_alias && git pull origin master && cp .bashrc /home/soporte'
 alias amend='git commit --amend -m '
-
+alias remote_update='git remote update'
+alias push_bfd='git push -f bfd '
 
 
 #docker 
@@ -157,7 +158,8 @@ alias up_alias_home='cd && cp .bashrc /home/arithgrey/Documentos/alias && cd /ho
 alias link_calendar='firefox --new-tab https://calendar.google.com/calendar/r?tab=wc&pli=1'
 alias link_enid='firefox --new-tab http://enidservices.com/inicio/login/'
 alias link_enid='firefox --new-tab http://enidservices.com/inicio/login/'
-
+alias mis_mrs='firefox --new-tab https://git.vauxoo.com/benandfrank/benandfrank/merge_requests/'
+alias runbot='firefox --new-tab https://runbot.vauxoo.com/runbot'
 
 #home
 alias enid='cd /var/www/html/inicio'
@@ -165,6 +167,7 @@ alias mysql_enid=' mysql -u root -p -D enidserv_web'
 alias pull_enid='git checkout master && git reset --hard master && git pull origin master'
 alias commit='git commit -m '
 alias ip_enid='hostname -I'
+
 
 
 
