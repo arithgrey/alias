@@ -138,6 +138,8 @@ alias oneline='git log --oneline'
 alias mixed='git reset --mixed '
 alias nbranch_master='git checkout master && git pull origin master && git checkout -b '
 alias remote_update='git remote update '
+alias push='git push'
+alias push_bdf='git push bfd'
 
 
 
@@ -150,7 +152,7 @@ alias odoo_code='cd /home/soporte/Documentos/odoo-docker-server/addons/benandfra
 alias add_alias='cd && gedit .bashrc'
 alias odoo='cd /home/soporte/Documentos/odoo-docker-server'
 alias repo_alias='cd /home/arithgrey/Documentos/alias'
-alias up_alias='cd && cp .bashrc /home/arithgrey/Documentos/alias && cd /home/arithgrey/Documentos/alias && git add . && git commit -m "[ADD][home]" && git push origin master'
+alias up_alias='cd && cp .bashrc /home/arithgrey/Documentos/alias && cd /home/arithgrey/Documentos/alias && git add . && git commit -m "[ADD][home]" && git push origin master && git push bfd master '
 alias link_calendar='firefox --new-tab https://calendar.google.com/calendar/r?tab=wc&pli=1'
 alias link_enid='firefox --new-tab http://enidservices.com/inicio/login/'
 alias link_enid='firefox --new-tab http://enidservices.com/inicio/login/'
